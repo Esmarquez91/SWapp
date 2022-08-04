@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SWapp", "SWapp\SWapp.csproj", "{992BE7CA-1CBF-4E51-89E2-077426BD3600}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarioSWapp", "..\CalendarioSWapp\CalendarioSWapp\CalendarioSWapp.csproj", "{753F15DF-055A-49FC-8273-06EF1BF5B4C1}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SWapp-Setup", "SWapp-Setup\SWapp-Setup.vdproj", "{9B231DE7-82D0-4EEE-A21B-7972BF24602F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{992BE7CA-1CBF-4E51-89E2-077426BD3600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{992BE7CA-1CBF-4E51-89E2-077426BD3600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{992BE7CA-1CBF-4E51-89E2-077426BD3600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{992BE7CA-1CBF-4E51-89E2-077426BD3600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{753F15DF-055A-49FC-8273-06EF1BF5B4C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{753F15DF-055A-49FC-8273-06EF1BF5B4C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{753F15DF-055A-49FC-8273-06EF1BF5B4C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{753F15DF-055A-49FC-8273-06EF1BF5B4C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B231DE7-82D0-4EEE-A21B-7972BF24602F}.Debug|Any CPU.ActiveCfg = Debug
+		{9B231DE7-82D0-4EEE-A21B-7972BF24602F}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15A46CD8-0FDB-4786-8B6B-82558D059E25}
+	EndGlobalSection
+EndGlobal

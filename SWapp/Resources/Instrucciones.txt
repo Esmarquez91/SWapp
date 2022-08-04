@@ -1,0 +1,23 @@
+Version 11.14D
+------------------------------------------------
+UPdate:
+Se agrega Alerta para circuito de Copaco
+-----------------------------------------------
+PROCESO:
+1) Generar el archivo Output.xlsx en la carpeta descargas, con el conversor CRM -CRT.
+2) Generar el ticket SWX en el Team y ponerlo en: PlannedWorkId (SWTeam)
+3) Click en: BulkLoader, el resultado está listo para pegar en el bulkloader del TEAM.
+4) Generar el correo a Multiple Customers del Team y enviar a bandeja de Sworks.
+5) Click en CORREOS --> seleccionar el correo generado por el TEAM (Doble click).
+6) Click en Notificar.
+-------------------------------------------------
+Impacto O: Outage --> ingresar tiempo en minutos.
+Impacto SH: Switch Hits --> ingresar tiempo en milisegundos.
+Impacto PL: Protection Loss --> ingresar tiempo en minutos.
+Impacto * --> Permite notificar un impacto personalizado. ej: "Outage up to 15 seconds".
+--------------------------------------------------
+Requisitos para el correcto funcionamiento:
+La carpeta SWprogram debe ir en Disco C 
+Contiene: CLientes.txt, direcciones.txt
+El archivo de direcciones debe ser modificado por PC/user.
+-Tener instalado el NetFramework 4.5 o mayor.
